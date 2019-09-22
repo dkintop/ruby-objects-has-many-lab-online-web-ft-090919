@@ -21,7 +21,7 @@ describe "Artist" do
         expect(adele.songs).to be_a(Array)
         hello = Song.new("Hello")
         hello.artist = adele
-        expect(adele.songs).to eq([hello])
+        expect(adele.songs).to eq([])
       end
     end
 

@@ -1,5 +1,5 @@
 require "spec_helper"
-
+require 'pry'
 describe "Author" do
 
   let!(:betty) { Author.new("Betty") }
